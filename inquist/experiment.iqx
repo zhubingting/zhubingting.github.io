@@ -1,0 +1,294 @@
+﻿
+<item yuyue>
+    /1 = "愉悦1.bmp"
+    /2 = "愉悦2.bmp"
+    /3 = "愉悦3.bmp"
+    /4 = "愉悦4.bmp"
+    /5 = "愉悦5.bmp"
+    /6 = "愉悦6.bmp"
+</item>
+
+<item jingya>
+    /1 = "惊讶1.bmp"
+    /2 = "惊讶2.bmp"
+    /3 = "惊讶3.bmp"
+    /4 = "惊讶4.bmp"
+    /5 = "惊讶5.bmp"
+    /6 = "惊讶6.bmp"
+</item>
+
+<item beishang>
+    /1 = "悲伤1.bmp"
+    /2 = "悲伤2.bmp"
+    /3 = "悲伤3.bmp"
+    /4 = "悲伤4.bmp"
+    /5 = "悲伤5.bmp"
+    /6 = "悲伤6.bmp"
+</item>
+
+<item kongju>
+    /1 = "恐惧1.bmp"
+    /2 = "恐惧2.bmp"
+    /3 = "恐惧3.bmp"
+    /4 = "恐惧4.bmp"
+    /5 = "恐惧5.bmp"
+    /6 = "恐惧6.bmp"
+</item>
+
+<item yanwu>
+    /1 = "厌恶1.bmp"
+    /2 = "厌恶2.bmp"
+    /3 = "厌恶3.bmp"
+    /4 = "厌恶4.bmp"
+    /5 = "厌恶5.bmp"
+    /6 = "厌恶6.bmp"
+</item>
+
+<item fennu>
+    /1 = "愤怒1.bmp"
+    /2 = "愤怒2.bmp"
+    /3 = "愤怒3.bmp"
+    /4 = "愤怒4.bmp"
+    /5 = "愤怒5.bmp"
+    /6 = "愤怒6.bmp"
+</item>
+
+
+<instruct myinstruct>
+	/nextkey = (" ")
+	/fontstyle = ("楷体", 3%, false, false, false, false, 5, 1)
+	/txcolor = (0,0,0)
+	/screencolor = (255,255,255)
+	/lastlabel = "请按空格键继续"
+	/windowsize = (1000,800)
+</instruct>
+
+
+<page begininstruction1>^^^^您好，非常欢迎您参与我们的研究！^^我们当前的研究是测验您的孩子的面部表情标签指认能力。^^请您询问您的孩子后尽量准确快速的对我们呈现的刺激材料进行反应！^^</page>
+
+<page begininstruction2>^^^^请您将左手和右手的食指、中指、无名指分别放在键盘的“A”、“S”、“D”键和“J”、“K”、“L”键上；^^在屏幕的中央会出现表情图片，请判断其标签.^^如果认为是愉悦，请按“A”键，如果认为是惊讶，请按“S”键；^^如果认为是悲伤，请按“D”键，如果认为是恐惧，请按“J”键；^^如果认为是厌恶，请按“K”键，如果认为是愤怒，请按“L”键。</page>
+
+<page endinstruction1>^^^^请您稍微休息一下!^^如果您休息好了，准备进入下一阶段的实验，请您按空格键！^^</page>
+
+<page endinstruction2>^^^^非常感谢您的参与，您提供的行为数据对我们的研究特别重要!^^感谢您的参与！^^</page>
+
+<item fixation>
+	/1 = "+"
+</item>
+
+<item correctmsg>
+	/1 = "√"
+</item>
+
+<item errormsg>
+	/1 = "×"
+</item>
+
+<picture yuyue>
+	/erase = True(0,0,0) 
+	/halign = center
+	/items = yuyue
+	/size = (600,600)
+</picture>
+
+<picture jingya>
+	/erase = True(0,0,0) 
+	/halign = center
+	/items = jingya 
+	/size = (600,600)
+</picture>
+
+<picture beishang>
+	/erase = True(0,0,0) 
+	/halign = center
+	/items = beishang
+	/size = (600,600)
+</picture>
+
+<picture kongju>
+	/erase = True(0,0,0) 
+	/halign = center
+	/items = kongju
+	/size = (600,600)
+</picture>
+
+<picture yanwu>
+	/erase = True(0,0,0) 
+	/halign = center
+	/items = yanwu
+	/size = (600,600)
+</picture>
+
+<picture fennu>
+	/erase = True(0,0,0) 
+	/halign = center
+	/items = fennu
+	/size = (600,600)
+</picture>
+
+<shape blank>
+	/erase = True(0,0,0)
+	/color = (black)
+	/size = (600,600)
+    /shape = rectangle
+</shape>
+
+<text fixation>
+	/items = fixation
+	/select = 1
+	/fontstyle = ("Arial", 80ptc)
+	/txbgcolor = (0,0,0)
+	/txcolor = (255,255,255)
+</text>
+
+<text correctmsg>
+	/items = correctmsg
+	/select = 1
+	/fontstyle = ("楷体", 60ptc, false, false, false, false, 5, 1)
+	/txcolor = (255,255,255)
+	/txbgcolor = (0, 0, 0)
+</text>
+
+<text errormsg>
+	/items = errormsg
+	/select = 1
+	/fontstyle = ("楷体", 60ptc, false, false, false, false, 5, 1)
+	/txcolor = (255,255,255)
+	/txbgcolor = (0, 0, 0)
+</text>
+
+<values>
+	/fixationtime = 0
+	/shapetime = 0
+	/stimulustimep = 0
+</values>
+
+<expressions>
+	/generaterandomfixation = ceil(rand(400,600))
+	/generaterandomshape = ceil(rand(100,150))
+</expressions>
+
+<trial yuyue>
+	/pretrialpause = 500
+	/correctmessage = (correctmsg,500)
+	/errormessage = (errormsg,500)
+	/validresponse = ("A","S","D","J","K","L")
+	/correctresponse = ("A")
+	/ontrialbegin = [values.fixationtime = expressions.generaterandomfixation]
+	/ontrialbegin = [values.shapetime = values.fixationtime + expressions.generaterandomshape]
+	/ontrialbegin = [values.stimulustimep = values.shapetime + 1500]
+	/ontrialbegin = [trial.yuyue.insertstimulustime(text.fixation, 0)]
+	/ontrialbegin = [trial.yuyue.insertstimulustime(shape.blank,values.fixationtime)]
+	/ontrialbegin = [trial.yuyue.insertstimulustime(picture.yuyue,values.shapetime)]
+	/ontrialbegin = [trial.yuyue.insertstimulustime(shape.blank,values.stimulustimep)]
+	/ontrialend = [trial.yuyue.clearstimulusframes()]
+</trial>
+
+<trial jingya>
+	/pretrialpause = 500
+	/correctmessage = (correctmsg,500)
+	/errormessage = (errormsg,500)
+	/validresponse = ("A","S","D","J","K","L")
+	/correctresponse = ("S")
+	/ontrialbegin = [values.fixationtime = expressions.generaterandomfixation]
+	/ontrialbegin = [values.shapetime = values.fixationtime + expressions.generaterandomshape]
+	/ontrialbegin = [values.stimulustimep = values.shapetime + 1500]
+	/ontrialbegin = [trial.jingya.insertstimulustime(text.fixation, 0)]
+	/ontrialbegin = [trial.jingya.insertstimulustime(shape.blank,values.fixationtime)]
+	/ontrialbegin = [trial.jingya.insertstimulustime(picture.jingya,values.shapetime)]
+	/ontrialbegin = [trial.jingya.insertstimulustime(shape.blank,values.stimulustimep)]
+	/ontrialend = [trial.jingya.clearstimulusframes()]
+</trial>
+
+<trial beishang>
+	/pretrialpause = 500
+	/correctmessage = (correctmsg,500)
+	/errormessage = (errormsg,500)
+	/validresponse = ("A","S","D","J","K","L")
+	/correctresponse = ("D")
+	/ontrialbegin = [values.fixationtime = expressions.generaterandomfixation]
+	/ontrialbegin = [values.shapetime = values.fixationtime + expressions.generaterandomshape]
+	/ontrialbegin = [values.stimulustimep = values.shapetime + 1500]
+	/ontrialbegin = [trial.beishang.insertstimulustime(text.fixation, 0)]
+	/ontrialbegin = [trial.beishang.insertstimulustime(shape.blank,values.fixationtime)]
+	/ontrialbegin = [trial.beishang.insertstimulustime(picture.beishang,values.shapetime)]
+	/ontrialbegin = [trial.beishang.insertstimulustime(shape.blank,values.stimulustimep)]
+	/ontrialend = [trial.beishang.clearstimulusframes()]
+</trial>
+
+<trial kongju>
+	/pretrialpause = 500
+	/correctmessage = (correctmsg,500)
+	/errormessage = (errormsg,500)
+	/validresponse = ("A","S","D","J","K","L")
+	/correctresponse = ("J")
+	/ontrialbegin = [values.fixationtime = expressions.generaterandomfixation]
+	/ontrialbegin = [values.shapetime = values.fixationtime + expressions.generaterandomshape]
+	/ontrialbegin = [values.stimulustimep = values.shapetime + 1500]
+	/ontrialbegin = [trial.kongju.insertstimulustime(text.fixation, 0)]
+	/ontrialbegin = [trial.kongju.insertstimulustime(shape.blank,values.fixationtime)]
+	/ontrialbegin = [trial.kongju.insertstimulustime(picture.kongju,values.shapetime)]
+	/ontrialbegin = [trial.kongju.insertstimulustime(shape.blank,values.stimulustimep)]
+	/ontrialend = [trial.kongju.clearstimulusframes()]
+</trial>
+
+<trial yanwu>
+	/pretrialpause = 500
+	/correctmessage = (correctmsg,500)
+	/errormessage = (errormsg,500)
+	/validresponse = ("A","S","D","J","K","L")
+	/correctresponse = ("K")
+	/ontrialbegin = [values.fixationtime = expressions.generaterandomfixation]
+	/ontrialbegin = [values.shapetime = values.fixationtime + expressions.generaterandomshape]
+	/ontrialbegin = [values.stimulustimep = values.shapetime + 1500]
+	/ontrialbegin = [trial.yanwu.insertstimulustime(text.fixation, 0)]
+	/ontrialbegin = [trial.yanwu.insertstimulustime(shape.blank,values.fixationtime)]
+	/ontrialbegin = [trial.yanwu.insertstimulustime(picture.yanwu,values.shapetime)]
+	/ontrialbegin = [trial.yanwu.insertstimulustime(shape.blank,values.stimulustimep)]
+	/ontrialend = [trial.yanwu.clearstimulusframes()]
+</trial>
+
+<trial fennu>
+	/pretrialpause = 500
+	/correctmessage = (correctmsg,500)
+	/errormessage = (errormsg,500)
+	/validresponse = ("A","S","D","J","K","L")
+	/correctresponse = ("L")
+	/ontrialbegin = [values.fixationtime = expressions.generaterandomfixation]
+	/ontrialbegin = [values.shapetime = values.fixationtime + expressions.generaterandomshape]
+	/ontrialbegin = [values.stimulustimep = values.shapetime + 1500]
+	/ontrialbegin = [trial.fennu.insertstimulustime(text.fixation, 0)]
+	/ontrialbegin = [trial.fennu.insertstimulustime(shape.blank,values.fixationtime)]
+	/ontrialbegin = [trial.fennu.insertstimulustime(picture.fennu,values.shapetime)]
+	/ontrialbegin = [trial.fennu.insertstimulustime(shape.blank,values.stimulustimep)]
+	/ontrialend = [trial.fennu.clearstimulusframes()]
+</trial>
+
+<block startblock>
+	/screencolor = (255,255,255)
+	/preinstructions = (begininstruction2)
+</block>
+
+
+<block exerciseblk>
+	/screencolor = (0,0,0)
+	/blockfeedback = (meanlatency,correct)
+	/trials = [1-12 = noreplacenorepeat(yuyue,jingya,beishang,kongju,yanwu,fennu)]
+</block>
+
+<block restblock>
+	/screencolor = (255,255,255)
+	/postinstructions = (endinstruction1)
+</block>
+
+<block judgeblk>
+	/screencolor = (0,0,0)
+	/blockfeedback = (meanlatency,correct)
+	/trials = [1-30 = noreplacenorepeat(yuyue,jingya,beishang,kongju,yanwu,fennu)]
+</block>
+
+<expt>
+	/preinstructions = (begininstruction1)
+	/ blocks = [1 = startblock; 2=exerciseblk; 3 = restblock; 4 = startblock; 5 = judgeblk]
+	/postinstructions = (endinstruction2)
+</expt>
